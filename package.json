@@ -1,0 +1,23 @@
+{
+  "name": "bbs-cuisines-website",
+  "version": "1.0.0",
+  "description": "A website for BB'S Cuisines showcasing their menu and allowing user registration.",
+  "main": "server/app.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cuisine",
+    "food",
+    "restaurant",
+    "registration"
+  ],
+  "author": "BB'S Cuisines",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "mongoose": "^5.10.9"
+  }
+}
